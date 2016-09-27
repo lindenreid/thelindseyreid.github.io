@@ -30,7 +30,8 @@ h2 {
 /* ------------------------ IMAGES ------------------------ */
 
 img.icon {
-	border: .2em solid #6666ff;
+	display: block;
+	margin: 0 auto;
 	color: #FFF;
 	opacity: 1;
 	background-color: transparent;
@@ -62,9 +63,10 @@ div.content{
 	font-size: 0.7em;
 }
 
+/*<div class="decor"><img class="decor" src="images/iconCircle.png"></div>*/
 div.decor{
 	position: absolute;
 	z-index: 1;
-	top: calc(10em + 60% - 200px - .2em);
-	left: calc(80% - 150px - .3em);
+	top: calc(10em - 150px);
+	left: calc(20% - 100px);
 }
